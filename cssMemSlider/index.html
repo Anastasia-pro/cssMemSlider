@@ -5,8 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mem Slider</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main>
+        <div class="slider__container">
+            <div class="slider__content">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+                <div class="mem__slider">
+                    <div class="mem__container meme-container-first">
+                        <img class="mem__image" src="./img/s1.jpg" alt="blue">
+                    </div>
+                    <div class="mem__container">
+                        <img class="mem__image" src="./img/s2.png" alt="red">
+                    </div>
+                    <div class="mem__container">
+                        <img class="mem__image" src="./img/s3.jpg" alt="green">
+                    </div>
+                    <div class="mem__container">
+                        <img class="mem__image" src="./img/s4.jpg" alt="yellow">
+                    </div>
+                </div>
+                <div class="desc">
+                    <div class="caption__wrapper">
+                        <div class="caption caption1">Суровое отчаяние</div>
+                        <div class="caption">Жиза всех программистов</div>
+                        <div class="caption">Только правда о себе</div>
+                        <div class="caption">Ужасы разработчиков</div>
+                    </div>
+                    <div class="control__wrapper">
+                        <label for="slide1" class="control">
+                            <span class="marker mark1"></span>
+                        </label>
+                        <label for="slide2" class="control">
+                            <span class="marker mark2"></span>
+                        </label>
+                        <label for="slide3" class="control">
+                            <span class="marker mark3"></span>
+                        </label>
+                        <label for="slide4" class="control">
+                            <span class="marker mark4"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
