@@ -1,13 +1,13 @@
 body {
     margin: 0;
-    background-color: #dab6d3;
+    background-image: url(./img/bg.png);
 }
 .slider__container {
     height: 86vh;
-    padding: 7vh;
+    padding: 7vh 0 7vh 20vh;
 }
 .slider__content {
-    width: 100%;
+    width: 90%;
     padding: 3vh 0;
     box-sizing: border-box;
     display: flex;
@@ -35,7 +35,7 @@ input[name="slide"] {
     transform: translateX(0);
     justify-content: center;
     align-items: center;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 .mem__image {
     max-width: 100%;
@@ -61,7 +61,7 @@ input[name="slide"] {
     min-width: 100%;
     display: flex;
     align-items: center;
-    transition: all 0.6s;
+    transition: all 0.3s;
     transform: translateX(0);
 }
 .control__wrapper{
@@ -78,7 +78,7 @@ input[name="slide"] {
     border-radius: 50%;
     background-color: #f569de;
     border: 2px solid #000;
-    transition: all 0.4s;
+    transition: all 0.3s;
     opacity: 0.6;
 }
 .control:hover .marker {
